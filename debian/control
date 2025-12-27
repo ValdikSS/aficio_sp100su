@@ -1,0 +1,16 @@
+Source: aficio-sp100su
+Section: unknown
+Priority: optional
+Maintainer: root <>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: https://github.com/Marisa-Chan/aficio_sp100su
+Rules-Requires-Root: no
+#Vcs-Git: https://salsa.debian.org/debian/aficio_sp100su.git
+#Vcs-Browser: https://salsa.debian.org/debian/aficio_sp100su
+
+Package: aficio-sp100su
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Cups filter for Ricoh Aficio SP 100SU as working fine standalone app 
